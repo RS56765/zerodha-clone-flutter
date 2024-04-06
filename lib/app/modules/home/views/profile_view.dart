@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:treding/app/modules/home/controllers/home_controller.dart';
 
-import '../widgets/stock_list_tile.dart';
-
 class ProfileView extends GetView<HomeController> {
   const ProfileView({Key? key}) : super(key: key);
 
