@@ -23,6 +23,7 @@ if (flutterVersionName == null) {
 }
 
 android {
+    buildToolsVersion "30.0.3"
     namespace "com.treding.treding"
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
