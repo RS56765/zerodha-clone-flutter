@@ -24,7 +24,7 @@ jobs:
       - name: Install Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.22.0'   # ✅ Yahan apne project ke Flutter version ka dhyan dena
+         cd zerodha-kite-clone-app
           channel: 'stable'
 
       - name: Install dependencies
